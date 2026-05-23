@@ -8,6 +8,6 @@ resource "aws_instance" "this_instance" {
 
 
   tags = {
-    Name = "${local.instance_name}"
+    Name = var.ec2_name
   }
 }

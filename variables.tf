@@ -21,3 +21,8 @@ variable "security_group_name" {
   description = "the name of the security group to discover"
   type        = string
 }
+
+variable "ec2_name" {
+  description = "instance name"
+  type        = string
+}
