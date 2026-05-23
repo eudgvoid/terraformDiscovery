@@ -15,6 +15,7 @@ variable "vpc_name" {
 
 variable "public_subnet_name" {
   description = "the name of the public subnet to discover"
+  type        = string
 }
 
 variable "security_group_name" {
